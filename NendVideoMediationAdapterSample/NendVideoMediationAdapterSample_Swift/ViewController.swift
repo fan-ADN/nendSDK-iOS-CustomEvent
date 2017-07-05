@@ -7,7 +7,7 @@
 
 import UIKit
 import GoogleMobileAds
-import NendVideoMediationAdapter
+import NendMediationCustomEventAdapter
 
 class ViewController: UIViewController {
     

@@ -7,7 +7,7 @@
 
 #import "ViewController.h"
 @import GoogleMobileAds;
-@import NendVideoMediationAdapter;
+@import NendMediationCustomEventAdapter;
 
 @interface ViewController () <GADRewardBasedVideoAdDelegate>
 
