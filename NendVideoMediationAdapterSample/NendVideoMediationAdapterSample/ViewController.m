@@ -27,7 +27,7 @@
 
 - (IBAction)loadAd:(id)sender {
     GADRequest *request = [GADRequest request];
-    GADMAdapterNendExtras *extras = [[GADMAdapterNendExtras alloc] init];
+    GADMAdapterNendCustomEventExtras *extras = [[GADMAdapterNendCustomEventExtras alloc] init];
     extras.userId = @"ID used in games and applications";
     [request registerAdNetworkExtras:extras];
     [[GADRewardBasedVideoAd sharedInstance] loadRequest:request withAdUnitID:self.unitId];
