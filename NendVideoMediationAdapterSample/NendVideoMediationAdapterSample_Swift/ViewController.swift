@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 
     @IBAction func loadAd(_ sender: Any) {
         let request = GADRequest()
-        let extras = GADMAdapterNendExtras()
+        let extras = GADMAdapterNendCustomEventExtras()
         extras.userId = "ID used in games and applications"
         request.register(extras)
         GADRewardBasedVideoAd.sharedInstance().load(request, withAdUnitID: self.unitId)
