@@ -56,7 +56,7 @@ pod 'NendMediationCustomEventAdapter'
 `GADMAdapterNendExtras`の`userId`プロパティにゲームやアプリで使用しているIDをセットすることによって、nend のユーザー管理に役立ちます。
 ```objc
 GADRequest *request = [GADRequest request];
-GADMAdapterNendExtras *extras = [[GADMAdapterNendExtras alloc] init];
+GADMAdapterNendCustomEventExtras *extras = [[GADMAdapterNendCustomEventExtras alloc] init];
 extras.userId = @"ID used in games and applications";
 [request registerAdNetworkExtras:extras];
 ```
