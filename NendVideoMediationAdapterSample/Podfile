@@ -4,9 +4,9 @@
 use_frameworks!
 
 target 'NendVideoMediationAdapterSample' do
-  pod 'NendVideoMediationAdapter_iOS'
+  pod 'NendSDK_iOS_CustomEventAdapter'
 end
 
 target 'NendVideoMediationAdapterSample_Swift' do
-  pod 'NendVideoMediationAdapter_iOS'
+  pod 'NendSDK_iOS_CustomEventAdapter'
 end
